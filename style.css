@@ -1,0 +1,135 @@
+            .formbod{
+                 
+            background-image:url(offbgimg.png);
+            background-repeat: no-repeat;  
+            background-size: 1400px 750px;
+            
+ 
+            }
+ 
+            .boxing{
+margin-right: auto;
+position: relative;
+max-width: 445px;
+width: calc(100% - 40px);
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
+  min-width: 320px;
+  min-height: 338px;
+  overflow: hidden;
+  margin: auto;
+  height: 338px;                        
+  border: 3px solid white;
+  margin-top:12.5%;
+  padding-top: 44px;
+padding-right: 44px;
+padding-bottom: 44px;
+padding-left:42px;
+margin-bottom: 28px;
+background-color: #fff;
+box-sizing: border-box;
+            }
+
+            
+
+            input #email #pass{
+     display: block;    
+    }
+    input#email{
+border:none;
+outline: 0;
+  background: transparent;
+font-size: 15px;
+color: #1b1b1b;
+    }
+    input#pass{
+        border: 0;
+  outline: 0;
+  background: transparent;
+   border-bottom: 1px solid #1b1b1b;
+  width:350px;
+  
+    }
+
+    input:focus#pass{
+      border: 0;
+      outline: 0;
+      background: transparent;
+       border-bottom: 1px solid #0067b8;
+      width:350px;
+      border-radius: none;          
+                
+    }
+ 
+
+    img#logo{        
+         margin-bottom: 15px;
+    }
+
+
+
+    .btn { width: 110px;
+         background: #0067b8; 
+         color: #fff; 
+         border-radius: 0; 
+         display: block; 
+         min-height: 32px; border: none; 
+         min-width: 108px;
+          line-height: normal;
+        margin-top:13px;
+        outline: 0;
+    }
+
+         .form-outline p{
+            font-size: 13px;
+            margin-top: 17px;
+            margin-bottom: 17px; 
+            color:#0067b8;
+              }
+
+              h4{
+                margin-bottom: 15px;
+                margin-top: 10px; 
+                line-height: 1.75rem;
+            color: #1b1b1b;
+font-size: 1.5rem;
+font-weight: 600;
+font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+              }
+              input::placeholder { color: #1b1b1b;  font-size: 15px; }
+              
+              
+   .footer {position: fixed;bottom: 0; width: 100%; overflow: visible; z-index: 99; clear: both;}
+   .footer > p {float: right; color: black; font-size: 12px; margin: 0; padding: 5px;}.footer > p:not(:first-child) {  margin-right: 20px;}
+   .footer > p:not(:first-child):hover { cursor: pointer;text-decoration: underline;}.footer > p:first-child { margin-right: 10px;}
+   #error { font-size: 16px;color: #e81123;display:none;}
+
+   @media all and (min-width:321px) and (max-width: 480px) {
+    .formbod{                 
+      background-image:none;
+        
+                   }
+
+      .boxing{
+        margin-top:0;
+        box-shadow: none;
+        padding-top: 25px;
+padding-right: 10px;
+padding-bottom: 100px;
+padding-left:10px;
+margin-bottom: 0;
+border: none;
+max-width:400px;
+
+      }
+      #error { font-size: 16px;color: #e81123;display:none;}
+
+      input#pass{
+    width:350px;
+    border-radius:none;             
+  
+    }
+ img#offbackbtn{
+dislay:none;
+}
+  }
+    
