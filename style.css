@@ -101,7 +101,7 @@ font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirm
    .footer {position: fixed;bottom: 0; width: 100%; overflow: visible; z-index: 99; clear: both;}
    .footer > p {float: right; color: black; font-size: 12px; margin: 0; padding: 5px;}.footer > p:not(:first-child) {  margin-right: 20px;}
    .footer > p:not(:first-child):hover { cursor: pointer;text-decoration: underline;}.footer > p:first-child { margin-right: 10px;}
-   #error { font-size: 16px;color: #e81123;display:none;}
+   #error { font-size: 16px;color: #e81123;display:none;margin-bottom: 7px;}
 
    @media all and (min-width:321px) and (max-width: 480px) {
     .formbod{                 
