@@ -7,6 +7,7 @@ $blocked_words = array(
      "above",
      "google",
      "softlayer",
+	"digitalocean",
 	 "amazonaws",
 	 "cyveillance",
 	 "phishtank",
